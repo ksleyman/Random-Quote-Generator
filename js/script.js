@@ -68,7 +68,7 @@ function getRandomHexDigit(){
 
 //construct the HTML that displays the quote and accompanying information
 //use as the HTML in the 'quote-box' div
-//use the CSS of the random background color
+//use the hex of the random background color
 function printQuote(){
   var randomQuote = getRandomQuote();
   var randomBackgroundColor = getRandomColor();
